@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agradecimento</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        /* Adicione CSS específico para a página Agradecimento aqui */
+        body {
+            background-color: #b0b3b4; /* Cor de fundo igual ao do index */
+            color: rgb(0, 0, 0); /* Cor do texto padrão */
+            margin: 0;
+            padding: 0;
+        }
+        .header-content, footer {
+            background-color: #10033f; /* Cor de fundo igual ao do index */
+            color: rgb(152, 214, 235); /* Cor do texto padrão */
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            text-align: center;
+        }
+        .text-content {
+            margin-bottom: 40px;
+        }
+        .personal-info {
+            display: flex;
+            align-items: center;
+            margin-top: 40px;
+            text-align: left;
+        }
+        .personal-info img {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .personal-info div {
+            max-width: 600px;
+        }
+        .social-icons {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .social-icons a {
+            color: rgb(152, 214, 235);
+            font-size: 24px;
+            text-decoration: none;
+        }
+    </style>
+    <!-- Adicione a biblioteca de ícones (Font Awesome) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagens/logo.png.jpeg" alt="Logo do Projeto" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="treino.html">Dicas de Treino</a></li>
+                    <li><a href="agradecimento.html" class="active">Agradecimento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="agradecimento">
+        <div class="main-content">
+            <!-- Texto Introdutório -->
+            <div class="text-content">
+                <h1>Agradecimento</h1>
+                <p>A todas as pessoas que dedicaram seu tempo para explorar nosso site, meu sincero agradecimento. Cada um de vocês é fundamental para o sucesso deste projeto. É com grande gratidão que reconheço a importância de cada visita, feedback e interação. Espero que as informações e dicas compartilhadas aqui sejam úteis e inspirem uma vida mais saudável e ativa.</p>
+                <p>Se desejar seguir meu trabalho ou deixar seu feedback, por favor, conecte-se comigo nas redes sociais abaixo. Sua opinião é muito importante e sempre bem-vinda.</p>
+            </div>
+            
+            <!-- Informações Pessoais -->
+            <div class="personal-info">
+                <img src="imagens/minha-imagem.png.jpeg" alt="Foto de Robson Oliveira">
+                <div>
+                    <p><strong>Facebook:</strong> robsonoliveirs3321@gmail.com</p>
+                    <p><strong>Instagram:</strong> #alvesrobsonoliveira</p>
+                </div>
+            </div>
+            
+            <!-- Ícones de Redes Sociais -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/seu_perfil" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/seu_perfil" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Tecnologia juntas, para uma vida mais saudável.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

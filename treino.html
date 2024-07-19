@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicas de Treino</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <style>
+        /* Adicione CSS específico para a página Dicas de Treino aqui */
+        body {
+            background-color: #b0b3b4; /* Cor de fundo igual ao do index */
+            color: rgb(0, 0, 0); /* Cor do texto padrão */
+            margin: 0;
+            padding: 0;
+        }
+        .header-content, footer {
+            background-color: #10033f; /* Cor de fundo igual ao do index */
+            color: rgb(152, 214, 235); /* Cor do texto padrão */
+        }
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center; /* Centraliza o conteúdo na página */
+            padding: 20px;
+            text-align: center; /* Centraliza o texto na página */
+        }
+        .text-content {
+            margin-bottom: 40px; /* Espaço entre o texto principal e as imagens */
+        }
+        .image-gallery {
+            width: 100%;
+            max-width: 1200px; /* Limita a largura máxima da galeria */
+        }
+        .image-text-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            justify-content: center; /* Centraliza a imagem e o texto dentro do container */
+        }
+        .image-text-container img {
+            max-width: 300px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .text-description {
+            max-width: 600px;
+            text-align: left; /* Alinha o texto à esquerda dentro do container */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <img src="imagens/logo.png.jpeg" alt="Logo do Projeto" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="tecnologia.html">Tecnologia</a></li>
+                    <li><a href="treino.html" class="active">Dicas de Treino</a></li>
+                    <li><a href="agradecimento.html">Agradecimento</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="treino">
+        <div class="main-content">
+            <!-- Texto Introdutório -->
+            <div class="text-content">
+                <h1>Dicas de Treino para Todos os Níveis</h1>
+                <p>Manter-se ativo é essencial para a saúde e o bem-estar. Aqui, você encontrará dicas e orientações para diferentes tipos de treino, adaptáveis a todos os níveis de condicionamento físico. Essas dicas mostram que é possível treinar em qualquer lugar. Lembre-se de começar devagar e aumentar a intensidade gradualmente, sempre respeitando os limites do seu corpo. Caso sinta dor muscular ou qualquer outra complicação, procure sempre um médico e um profissional da área.</p>
+
+                <h4>Alongamento</h4>
+                <p>O alongamento é fundamental para preparar o corpo para a atividade física, aumentar a flexibilidade e prevenir lesões. Dica: Faça alongamentos dinâmicos antes do treino e alongamentos estáticos após o treino para ajudar na recuperação muscular.</p>
+
+                <h4>Cardio</h4>
+                <p>Exercícios cardiovasculares são essenciais para melhorar a resistência e a saúde do coração. Dica: Inclua atividades como corrida, caminhada rápida, ciclismo ou pular corda na sua rotina de treinos.</p>
+
+                <h4>Força</h4>
+                <p>Treinamento de força ajuda a construir músculos, aumentar a densidade óssea e melhorar o metabolismo. Dica: Use pesos livres, máquinas de musculação ou o próprio peso do corpo para realizar exercícios de força.</p>
+
+                <h4>Treinamento Funcional</h4>
+                <p>O treinamento funcional foca em movimentos que simulam atividades diárias, melhorando a coordenação e a força geral do corpo. Dica: Inclua exercícios como agachamentos, avanços e levantamento terra na sua rotina.</p>
+            </div>
+            
+            <!-- Galeria de Imagens e Textos -->
+            <div class="image-gallery">
+                <!-- Imagem e Texto 1 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.1.png" alt="Treino 1">
+                    <div class="text-description">
+                        <h4>Alongamento Dinâmico</h4>
+                        <p>Movimentos de alongamento dinâmico, como balançar as pernas e os braços, ajudam a aquecer os músculos antes do treino.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 2 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.2.png" alt="Treino 2">
+                    <div class="text-description">
+                        <h4>Caminhada Rápida</h4>
+                        <p>Caminhar rapidamente é uma forma eficaz de exercício cardiovascular que pode ser feita em qualquer lugar.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 3 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.3.png" alt="Treino 3">
+                    <div class="text-description">
+                        <h4>Agachamento com Peso</h4>
+                        <p>Agachamentos com peso fortalecem os músculos das pernas e glúteos, além de melhorar o equilíbrio.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 4 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.4.png" alt="Treino 4">
+                    <div class="text-description">
+                        <h4>Corrida</h4>
+                        <p>Correr é um excelente exercício cardiovascular que melhora a resistência e a saúde do coração.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 5 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.5.png" alt="Treino 5">
+                    <div class="text-description">
+                        <h4>Pular Corda</h4>
+                        <p>Pular corda é um exercício cardiovascular intenso que também melhora a coordenação e a agilidade.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 6 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.6.png" alt="Treino 6">
+                    <div class="text-description">
+                        <h4>Flexões</h4>
+                        <p>Flexões são um exercício de peso corporal que fortalece os músculos do peito, ombros e tríceps.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 7 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.7.png" alt="Treino 7">
+                    <div class="text-description">
+                        <h4>Levantamento Terra</h4>
+                        <p>O levantamento terra é um exercício fundamental no treinamento de força, trabalhando vários grupos musculares.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 8 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.8.png" alt="Treino 8">
+                    <div class="text-description">
+                        <h4>Abdominais</h4>
+                        <p>Os abdominais ajudam a fortalecer os músculos centrais, melhorando a estabilidade e a postura.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 9 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.9.png" alt="Treino 9">
+                    <div class="text-description">
+                        <h4>Treino Funcional</h4>
+                        <p>Exercícios funcionais, como agachamentos e avanços, melhoram a força geral e a coordenação.</p>
+                    </div>
+                </div>
+                <!-- Imagem e Texto 10 -->
+                <div class="image-text-container">
+                    <img src="imagens/treino.10.png" alt="Treino 10">
+                    <div class="text-description">
+                        <h4>Alongamento Estático</h4>
+                        <p>O alongamento estático após o treino ajuda na recuperação muscular e melhora a flexibilidade.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Saúde e Tecnologia juntas, para uma vida mais saudável.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>
